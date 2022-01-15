@@ -3,6 +3,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    margin:0;
+    background: linear-gradient(215deg,#fff 0%,#00818a 50%);
 }
 span{
     width: 100%;
@@ -10,7 +15,7 @@ span{
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-    /* background-color: #008979; */
+    padding-top: 10rem;
 
 }
 .table{
@@ -35,7 +40,7 @@ span{
 .table th{
     background-color: #008979;
     text-align: left;
-    color: #ffffff;
+    text-shadow: 0 0 1px #000;
     font-weight: bold;
 }
 .table td, .table th{
@@ -45,6 +50,15 @@ span{
     border-right: 2px solid rgba(230, 230, 230, 0.5);
     text-align: center;
 }
+td.last{
+    border-right: none;
+}
 
-
+/* .Table{
+    display: flex;
+    margin: 5rem 0;
+}
+.TABLE_DATA,.TABLE_HEAD{
+    padding: 0;
+} */
 
